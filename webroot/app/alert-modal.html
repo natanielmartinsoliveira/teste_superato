@@ -1,0 +1,20 @@
+<form name="post_5c3341a45b21a451110072"  method="post"  class="ng-pristine ng-valid">
+<article class="modalContainer alertModal">
+    <h2 class="modalHeader heading3">
+        {{ ngDialogData.modalHeader }}
+    </h2>
+
+    <div class="modalBody">
+        <div class="alertMessage">
+            {{ ngDialogData.modalBody }}
+        </div>
+        <div class="alertButtons">
+            <a class="button" ng-click="closeThisDialog(true)">{{ ngDialogData.trueOption }}</a>
+            <a class="link" ng-click="confirm(false)">{{ ngDialogData.falseOption }}</a>
+        </div>
+    </div>
+</article>
+
+<input type="hidden" ng-model="form._method" name="_method" value="POST">
+<input type="hidden" ng-model="form._csrfToken" name="_csrfToken" autocomplete="off" value="8a41651563dc2170674f7866d8a131fb3c49619051e5f182202dc6ae17c8636cdb8fb027e39424b9b90adafc8bc5dd58a85ae80da93d8358dc50ba74936c7946">
+</form>
